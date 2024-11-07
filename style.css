@@ -1,0 +1,496 @@
+*body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comman_style {
+    margin-bottom: 40px!important;
+}
+
+.custom_mar_gen {
+    margin-top: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", serif;
+}
+
+
+/* <!-- ###############################  NAVBAR ############################## --> */
+
+.navbar {
+    position: fixed;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.img-1 {
+    height: 4em;
+    width: 18rem !important;
+    /* margin-left: rem; */
+}
+
+.d-flex_z {
+    text-align: center;
+    padding: .5rem;
+}
+
+.d-flex_z .btn_custom_z {
+    text-align: center;
+    padding: 1.1rem 0.3rem;
+    margin-right: 5rem;
+    background-color: #324d9d;
+    font-weight: bolder;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button-b {
+    background-color: #324d9d;
+    -webkit-border-radius: 60px;
+    border-radius: 3px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #081f63;
+    }
+    50% {
+        background-color: rgb(41, 55, 151);
+    }
+    100% {
+        background-color: rgb(57, 76, 152);
+    }
+}
+
+.button-b {
+    animation: glowing 3s infinite;
+}
+
+
+/* <!-- ############################### APPOINTMENT  ############################## --> */
+
+.appointment {
+    background-color: #f0f4f1;
+}
+
+.appointment .section-3 {
+    margin: 2.5rem;
+}
+
+.hd-1 h1 {
+    font-size: 50px;
+}
+
+
+/* ################################### ABOUT ####################### */
+
+.card_b_main1 {
+    margin-bottom: 50px!important;
+}
+
+.card-text {
+    color: #484444;
+    font-size: 13px !important;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0!important;
+}
+
+.card-body_p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* <!-- ############################### BEST DERMTOLOGIST ##############################  */
+
+.card-title_11 {
+    text-align: center;
+}
+
+.card-title_11_image {
+    height: 250px!important;
+}
+
+.h-decor {
+    display: inline-block;
+    height: 3px;
+    width: 53px;
+    background-color: #324d9d;
+    position: relative;
+    width: 200px!important;
+    margin-bottom: 30px;
+}
+
+
+/* <!-- ############################### FAQ ##############################  */
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    padding: 20px;
+    height: 70px;
+    border: none;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #f7f7f7!important;
+    color: #000;
+}
+
+.accordion-button:focus {
+    box-shadow: none!important;
+}
+
+
+/* ############################### FOOTER ##########################3 */
+
+footer {
+    background-color: #f7f7f7!important;
+}
+
+.footer_main {
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer_form {
+    border: 1px solid#484444;
+    padding: 20px;
+}
+
+.footer_f_class input {
+    border-radius: 0;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    color: #000;
+}
+
+.icon_style p i {
+    color: #324d9d;
+    font-size: 20px;
+}
+
+.footer_bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: .4rem;
+    background: #324d9d;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.custom-btn {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: 500;
+    background: #886600;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+}
+
+.custom-btn1 {
+    display: inline-block;
+    width: 190px;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: 500;
+    background: #f2ce00;
+    border: none;
+    outline: none;
+}
+
+
+/* ###################################  ANIMATION   ########################### */
+
+.floata {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 79px;
+    left: 25px;
+    background-color: #28D146;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #a2a2a2;
+    z-index: 100;
+    animation-name: animationWhatsapBTN;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+.floata:hover {
+    color: #fff;
+    opacity: .95;
+}
+
+.my-floata {
+    margin-top: 9px;
+}
+
+@keyframes animationWhatsapBTN {
+    0% {
+        bottom: 79px;
+    }
+    100% {
+        bottom: 90px;
+    }
+}
+
+.floata1 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 150px;
+    left: 25px;
+    background-color: #f2ce00;
+    color: #000000;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #a2a2a2;
+    z-index: 100;
+    animation-name: animationWhatsapBTN1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+.floata1:hover {
+    color: #fff;
+    opacity: .95;
+}
+
+.my-floata1 {
+    margin-top: 9px;
+}
+
+@keyframes animationWhatsapBTN1 {
+    0% {
+        bottom: 150px;
+    }
+    100% {
+        bottom: 161px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .navbar-brand img {
+        height: 3rem;
+        width: 8rem;
+        margin-left: .5rem;
+    }
+    .banner {
+        margin-top: 65px!important;
+    }
+    .section-3 {
+        padding: 40px;
+    }
+    .menu_button_s button {
+        text-align: center;
+        padding: 0.1rem 0.1rem;
+        margin-right: 0rem!important;
+        background-color: #324d9d;
+        font-weight: bolder;
+        color: black;
+        border-radius: 5px;
+        background-color: r#324d9d;
+        font-size: 15px;
+    }
+    .menu_button_s button a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .icon_style {
+        margin-top: 30px!important;
+    }
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hd-1 h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .navbar-brand>img {
+        width: 13rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .stretch {
+        margin: -6px 0px !important;
+    }
+    .navbar-brand img {
+        height: 3rem;
+        width: 9rem!important;
+        margin-left: .5rem;
+    }
+    .hd-1 h1 {
+        font-size: 30px;
+    }
+    .d-flex_z .btn_custom_z {
+        padding: 1.1rem 5px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .stretch {
+        margin: -6px 0px !important;
+    }
+    /* .banner {
+        padding-top: 45px;
+    } */
+    .sm_class {
+        display: block!important;
+        text-align: center;
+    }
+    .navbar .container {
+        display: flex!important;
+    }
+    .menu_button_s {
+        display: block!important;
+        text-align: center;
+        margin: 0px!important;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .set-navbar {
+        margin-left: 4rem;
+    }
+    .button-b {
+        margin-left: .7rem;
+    }
+}
+
+
+/* ###################################custom css############################# */
+
+.scroll_style a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* ################################Rating CSS################################# */
+
+.qoute_box {
+    position: relative;
+    margin: auto;
+    padding: 2.8rem !important;
+    background-color: transparent;
+    background-image: linear-gradient( -45deg, transparent, transparent 2%, white 2%, white 85%, transparent, 85%, transparent), linear-gradient(to bottom right, #2ad, #2ad 90%, transparent 90%);
+    background-position: top left, 0.2em 0.2em;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 15px #0005);
+}
+
+.qoute_box::before,
+.qoute_box::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 3rem;
+    height: 5rem;
+    content: "";
+    z-index: 0;
+    font-size: 8rem;
+    font-family: Georgia, Times, Garamond, serif;
+}
+
+.qoute_box::before {
+    top: -3.5rem;
+    left: 1rem;
+    content: open-quote;
+}
+
+.qoute_box::after {
+    bottom: -1rem;
+    right: 1rem;
+    content: close-quote;
+}
+
+.qoute_box::before,
+.qoute_box::after,
+.qoute_box h2 {
+    text-shadow: -2px 2px #fff, -1.5px 1.5px #fff, -1px 1px #fff, -0.5px 0.5px #fff;
+}
+
+.card-title-t {
+    margin-block-end: 1rem;
+}
+
+.qoute_box p {
+    margin-block-start: 1rem;
+    text-indent: 2ch;
+}
+
+.card {
+    border: none;
+}
+
+.carousel-item {
+    padding-top: 30px;
+}
+
+.cart {
+    margin-top: -20px !important;
+    height: 350px;
+    width: 630px;
+}
